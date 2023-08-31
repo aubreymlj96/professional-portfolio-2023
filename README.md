@@ -55,6 +55,14 @@ The CSS consists of the style choices on the page:
 "./assets/contactinfo.txt"
 "./assets/images/giphy.gif"
 
+Cites for Images:
+
+Galaxy Background: https://pixabay.com/images/search/background/
+Euphoric background - https://pixabay.com/images/search/background/
+Plants - https://pixabay.com/images/search/background/
+Astronaut - https://giphy.com/stickers/space-astronaut-moonflag-dxmjrltfAJRLvqADOl  
+
+
 ## Credits
 
 Erik (TA) provided the sizing parameters for the starry background image.
