@@ -1,0 +1,351 @@
+:root {
+  --dark: black;
+  --light: pink;
+  --border-radius: 50px;
+
+}
+
+
+body {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("./images/astronomy-1867616_640.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: black;
+    color: gray;*/
+
+}
+
+.main-header {
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px;
+    color: var(--light);
+    border-radius: var(--border-radius);
+    border-color:black;
+
+}
+
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    float: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: row;
+    color: var(--light)
+    /*background-color: var(--dark);*/
+    
+}
+
+nav a {
+    color: grey;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
+nav a:hover {
+    background-color: var(--light);
+    cursor: pointer;
+}
+
+
+
+#head-shot {
+    /*position: relative;*/
+    /*float: inline-end;*/
+    height: 200px;
+    width: 200px;
+    /*width: auto;*/
+    /*border: 5px;*/
+    padding: 0 0 50;
+    border-radius: 75px;
+    margin-right: 110px;
+    margin-bottom: 2%;
+
+}
+
+main {
+    /*justify-content: center;*/
+
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -40px;
+    color: var(--light);
+    background-color: grey;
+}
+
+.background {
+    height: auto;
+    width: 90%;
+    /*justify-content: center;*/
+    display: inline-block;
+    position: relative;
+    border: 20px;
+    /*border-color: black;*/
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    box-sizing: 20px border-box;
+    box-shadow: 0px 0px 50px lightgrey;
+    /* height: 20vh; */
+    /* width: 87vw; */
+    margin-top: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    padding: 10px;
+
+    
+}
+
+
+#bio {
+    /*flex-wrap: wrap;*/
+    display: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    flex-direction: column;
+    /*inline-size: 1450px;*/
+    overflow-wrap: break-word;
+    border: 50px;
+    border-radius: 50px 50px;
+    border-color: white;
+    /*height: 10vh;
+    width: 87vw;*/
+    margin: 5px;
+}
+
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: var(--dark);
+    display: right;
+    margin: 5px;
+
+}
+
+
+section {
+    border-style: solid azure;
+    border-color: azure;
+    border-radius: -200px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.projects {
+    display: flex;
+}
+
+.assignments1 {
+    height: 750px;
+    width: 60%;
+    /*display: inline-block;*/
+    /*justify-content: center;*/
+    float: left;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    /*flex: 0 0 300px;*/
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px lightgrey;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.assignments {
+    height: 500px;
+    width: 40%;
+    float: right;
+    /*display: inline-block;*/
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    /*flex: 0 0 300px;*/
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px lightgrey;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#sub-header { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.pp-images1 { 
+    /*display: grid;*/
+    height: 80%;
+    width: 85%;
+    padding: 0 0 50;
+    border-radius: 50px 50px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.pp-images1:hover {
+    height: 82%;
+    width: 87%;
+}
+
+.pp-images { 
+    /*display: grid;*/
+    height: 75%;
+    width: 85%;
+    padding: 0 0 50;
+    border-radius: 50px 50px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.pp-images:hover {
+    height: 73%;
+    width: 87%;
+}
+
+.contact {
+    justify-content: flex-end;
+
+}
+
+.contact-information {
+    /*justify-content: flex-end;
+    flex-direction: row;*/
+    position: relative;
+    /*height: 350px;*/
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    /*border: 0 0 50px black;*/
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px lightgrey;
+    /*margin: auto;*/
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /*margin-left: 900px;
+    margin-right: 100px;*/
+
+}
+
+.contact-information h2 {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.mailbox {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+.mailbox:hover::before{
+    content: '\01F4EC';
+    display: inline-block;
+    position: relative;
+    background-color: var(--light);
+    color: #fff;
+    padding: 0 2%;
+  }
+
+
+.astro-section {
+    height: 200px;
+    width: 500px;
+
+
+}
+
+.astronaut {
+    height: 225px;
+    margin: auto;
+
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 60px;
+    /*margin-bottom: 30px;*/
+    /*justify-content: center;*/
+}
+
+
+.end-header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    color: black;
+    /*display: center;*/
+    text-align: center;
+
+
+}
+
+@media screen and (max-width: 800px) {
+header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+.projects {
+    flex-direction: column;
+    /* max-width: 10000px;
+    max-height: 100px; */
+}
+
+
+#head-shot {
+    margin:auto;
+    display: flex;
+}
+
+.assignments1 {
+    height: 60%;
+    width: 86%;
+}
+
+
+.assignments {
+    height: 60%;
+    width: 86%;
+}
+
+.projects-contact {
+    flex-direction: column;
+}
+
+.contact-information {
+    height: 60%;
+    width: 86%;
+}
+}
+
+
+
