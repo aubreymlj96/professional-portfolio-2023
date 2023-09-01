@@ -200,6 +200,20 @@ h2 {
     width: 87%;
 }
 
+
+.pp-images3 { 
+    height: 75%;
+    width: 85%;
+    padding: 0 0 50;
+    border-radius: 50px 50px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.pp-images3:hover {
+    height: 73%;
+    width: 87%;
+}
+
 .contact {
     justify-content: flex-end;
 
