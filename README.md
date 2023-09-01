@@ -54,6 +54,7 @@ The CSS consists of the style choices on the page:
 "./assets/images/tree-736885_640.jpg"
 "./assets/contactinfo.txt"
 "./assets/images/giphy.gif"
+"./assests/images/ocean-3605547_1280.jpg" 
 
 Cites for Images:
 
@@ -61,6 +62,7 @@ Galaxy Background: https://pixabay.com/images/search/background/
 Euphoric background - https://pixabay.com/images/search/background/
 Plants - https://pixabay.com/images/search/background/
 Astronaut - https://giphy.com/stickers/space-astronaut-moonflag-dxmjrltfAJRLvqADOl  
+Ocean View - https://pixabay.com/photos/ocean-milky-way-boat-sailing-3605547/
 
 
 ## Credits
